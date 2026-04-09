@@ -7,7 +7,7 @@ Simply open the `index.html` file in any modern web browser, or use VS Code's "L
 
 ---
 
-## 📁 Project Structure (1 Mark / Folder Setup)
+## 📁 Project Structure (Folder Setup)
 The project adheres to a strict, logical directory structure separating markup, styles, scripts, and media assets.
 
     dr-nut-project/
@@ -42,13 +42,13 @@ The project adheres to a strict, logical directory structure separating markup, 
 
 ## 🛠️ Technical Features & Rubric Alignment
 
-### 1. Valid HTML5 & Document Outline (9 Marks)
+### 1. Valid HTML5 & Document Outline
 * **Semantic Structure:** Every page utilizes proper `<header>`, `<main>`, `<section>`, `<nav>`, and `<footer>` tags to ensure a flawless document outline.
 * **Heading Hierarchy:** Headings follow strict numerical order (H1 -> H2 -> H3) with zero skipped levels. Visually hidden headings (`<h2 class="visually-hidden">`) were utilized to satisfy W3C validation without breaking the visual design.
 * **Semantic UI:** The Product Specifications utilize native `<details>` and `<summary>` tags for accessible accordion functionality.
 * **Advanced Forms:** The Contact form implements `<fieldset>`, `<legend>`, and `<select>` dropdowns for superior data collection structure.
 
-### 2. Advanced CSS & Responsive Design (15 Marks)
+### 2. Advanced CSS & Responsive Design
 * **CSS Grid & Flexbox:** Built upon a custom responsive grid framework (`col-span-4`, `m-col-span-8`, etc.) transitioning flawlessly from mobile to desktop.
 * **Fluid Typography:** Implemented modern `clamp()` functions (`font-size: clamp(50px, 8vw, 90px);`) to ensure headers scale organically across all viewports.
 * **Contextual Considerations:** 
@@ -58,7 +58,7 @@ The project adheres to a strict, logical directory structure separating markup, 
   * **Text Wipe Navigation:** A complex `::before` pseudo-element expanding width hover effect creates a premium "left-to-right text fill" animation.
   * **3D Transparent Cans:** Replaced standard `box-shadow` with `filter: drop-shadow()` to calculate the alpha-channels of transparent PNG cans, rendering highly realistic, shape-hugging shadows.
 
-### 3. JavaScript & Interactivity (10 Marks)
+### 3. JavaScript & Interactivity 
 The `main.js` file strictly adheres to advanced coding standards outlined in the project requirements:
 * **No `DOMContentLoaded`:** Scripts are executed globally via `<script>` tag placement at the end of the HTML body.
 * **No `getElementById`:** Exclusively utilizes `querySelector` and `querySelectorAll`.
@@ -70,7 +70,7 @@ The `main.js` file strictly adheres to advanced coding standards outlined in the
 
 ---
 
-## 🎨 Design & Research (11 Marks)
+## 🎨 Design & Research 
 * **Typography:** Utilizes Google Fonts (*Montserrat* for bold, geometric headings, and *Poppins* for highly legible body copy).
 * **Color Palette:** A premium, dark-mode aesthetic utilizing Deep Crimson (`#8c1d18`), Charcoal (`#111111`), and Warm Off-White (`#f7f5f0`) to reflect a "roasted" energy brand.
 * **Content Planning:** Included comprehensive e-commerce details (sugar content comparisons, vegan/allergy warnings, 0% ABV notes, wholesale options) to accurately reflect real-world beverage brand architecture.
