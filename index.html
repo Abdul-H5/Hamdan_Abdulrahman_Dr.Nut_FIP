@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr Nut - Home</title>
+
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800;900&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="wrapper">
+
+  <header class="site-header grid-con">
+    <div class="logo col-span-2 m-col-span-3 l-col-span-3">
+      <a href="index.html"><img src="images/logo.svg" alt="Dr Nut Logo"></a>
+    </div>
+
+    <div class="nav-container col-span-2 m-col-span-9 l-col-span-9">
+      <input type="checkbox" id="menu-toggle">
+      
+      <label for="menu-toggle" class="menu-icon">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </label>
+
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#" id="cart-counter" class="cart-link">Cart (0)</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-cinemagraph">
+      <video class="cinemagraph-video" autoplay loop muted playsinline>
+        <source src="videos/commercial.mp4" type="video/mp4">
+      </video>
+      <div class="cinemagraph-overlay"></div>
+
+      <div class="hero-content">
+        <h1>Bold Nut Energy</h1>
+        <p>Welcome to the future of soda. We have taken the rich, bold flavors of your favorite roasted nuts and blended them with the crisp, refreshing fizz of classic carbonated beverages.</p>
+        
+        <div class="hero-btn-wrap">
+          <a href="products.html" class="btn btn-hero">Shop Now</a>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="split-section grid-con">
+      <div class="col-span-4 m-col-span-6 l-col-span-6 split-image">
+        <img src="images/lifestyle-1.jpg" alt="Person drinking Dr Nut" loading="lazy">
+      </div>
+      <div class="col-span-4 m-col-span-6 l-col-span-6 split-text">
+        <h2>The Perfect Mid-Day Boost</h2>
+        <p>Whether you are powering through a late-night study session, hitting the gym, or just relaxing with friends, Dr Nut delivers the crisp refreshment you crave without the artificial junk you don't. Experience the roasted difference today.</p>
+        <a href="about.html" class="btn">Our Story</a>
+      </div>
+    </section>
+
+    <section class="interactive-section grid-con">
+      <div class="col-span-4 m-col-span-12 l-col-span-12 intro-text">
+        <h2>Explore The Lineup</h2>
+        <p>Click a flavor below to reveal its tasting notes and ingredients.</p>
+      </div>
+
+      <div class="col-span-4 m-col-span-4 l-col-span-4 interactive-controls">
+        <button class="int-btn active" data-flavor="almond">Almond Fizz</button>
+        <button class="int-btn" data-flavor="hazelnut">Hazelnut Dark</button>
+        <button class="int-btn" data-flavor="pistachio">Pistachio Light</button>
+      </div>
+
+      <div class="col-span-4 m-col-span-8 l-col-span-8 interactive-display">
+        <div class="display-card" id="dynamic-card">
+          <div class="display-image-container">
+            <img id="dynamic-img" src="images/almond.png" alt="Almond Fizz" loading="lazy">
+          </div>
+          <div class="display-text">
+            <h3 id="dynamic-title">Almond Fizz</h3>
+            <h4 id="dynamic-subtitle">Smooth & Creamy</h4>
+            <p id="dynamic-desc">This is the flavor that started it all. We extract the oils from perfectly roasted almonds to create a rich, marzipan-like sweetness perfectly balanced by crisp carbonation.</p>
+            <p class="ingredients" id="dynamic-ingredients"><strong>Key Ingredients:</strong> Carbonated Water, Cane Sugar, Roasted Almond Extract.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about grid-con">
+      <div class="col-span-4 m-col-span-12 l-col-span-12 intro-text">
+        <h2>Why Choose Dr Nut?</h2>
+        <p>We believe in high-quality ingredients and incredible taste. Here is what makes us different.</p>
+      </div>
+
+      <div class="service-box col-span-2 m-col-span-4 l-col-span-3">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#8c1d18" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="service-icon"><path d="M12 2.69l5.66 4.12a8 8 0 0 1 2.34 5.19A8 8 0 0 1 12 20a8 8 0 0 1-8-8 8 8 0 0 1 2.34-5.19L12 2.69z"></path></svg>
+        <h3>Real Extract</h3>
+        <p>We never use fake syrups. Only real extracts from roasted nuts.</p>
+      </div>
+      
+      <div class="service-box col-span-2 m-col-span-4 l-col-span-3">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#8c1d18" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="service-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line></svg>
+        <h3>Less Sugar</h3>
+        <p>Our soda has 30% less sugar than leading national brands.</p>
+      </div>
+      
+      <div class="service-box col-span-2 m-col-span-4 l-col-span-3">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#8c1d18" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="service-icon"><path d="M12 22C12 22 20 18 20 12V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+        <h3>Vegan Friendly</h3>
+        <p>100% plant-based ingredients from start to finish.</p>
+      </div>
+      
+      <div class="service-box col-span-2 m-col-span-4 l-col-span-3">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#8c1d18" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="service-icon"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+        <h3>Caffeine Free</h3>
+        <p>Get natural energy without the heavy caffeine crash.</p>
+      </div>
+    </section>
+
+    <section class="review grid-con">
+      <div class="col-span-4 m-col-span-12 l-col-span-12 review-box" style="transition: opacity 0.3s ease;">
+        <h2 id="review-text">"I stopped drinking regular cola months ago. The Hazelnut Dark gives me the perfect afternoon boost."</h2>
+        <p class="stars" id="review-stars">⭐⭐⭐⭐⭐</p>
+        <p class="reviewer" id="review-author">- Sarah M., Verified Buyer</p>
+      </div>
+    </section>
+
+    <section class="social-grid-section grid-con">
+      <div class="col-span-4 m-col-span-12 l-col-span-12 intro-text">
+        <h2>@DrNutSoda</h2>
+        <p>Follow us on Instagram to see how our community stays refreshed.</p>
+      </div>
+      
+      <div class="col-span-2 m-col-span-3 l-col-span-3 social-img-box">
+        <img src="images/social-1.jpg" alt="Social Feed 1" loading="lazy">
+      </div>
+      <div class="col-span-2 m-col-span-3 l-col-span-3 social-img-box">
+        <img src="images/social-2.jpg" alt="Social Feed 2" loading="lazy">
+      </div>
+      <div class="col-span-2 m-col-span-3 l-col-span-3 social-img-box">
+        <img src="images/social-3.jpg" alt="Social Feed 3" loading="lazy">
+      </div>
+      <div class="col-span-2 m-col-span-3 l-col-span-3 social-img-box">
+        <img src="images/social-4.jpg" alt="Social Feed 4" loading="lazy">
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="grid-con">
+      <div class="col-span-4 m-col-span-4 l-col-span-4 footer-col">
+        <img src="images/logo.svg" alt="Dr Nut Logo" class="footer-logo" loading="lazy">
+        <p>The future of nut-infused carbonated energy. Bold, refreshing, and crafted with real plant-based ingredients.</p>
+      </div>
+      
+      <div class="col-span-4 m-col-span-4 l-col-span-4 footer-col">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Shop Products</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      
+      <div class="col-span-4 m-col-span-4 l-col-span-4 footer-col">
+        <h3>Get In Touch</h3>
+        <p>123 Fake Street, London, ON</p>
+        <p>hello@drnutsoda.com</p>
+        <br>
+        <div class="social-links">
+          <a href="#">Instagram</a> | <a href="#">TikTok</a> | <a href="#">Twitter</a>
+        </div>
+      </div>
+    </div>
+    <div class="grid-con">
+      <div class="col-span-4 m-col-span-12 l-col-span-12 footer-bottom">
+        <p>© 2026 Dr Nut Soda Co. - All Rights Reserved</p>
+      </div>
+    </div>
+  </footer>
+  
+  <div id="toast-notification" class="toast">Item added to cart!</div>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  
+  <script src="js/main.js"></script>
+</div>
+</body>
+</html>
