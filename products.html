@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr Nut - Products</title>
+
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800;900&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="wrapper">
+
+  <header class="site-header grid-con">
+    <div class="logo col-span-2 m-col-span-3 l-col-span-3">
+      <a href="index.html"><img src="images/logo.svg" alt="Dr Nut Logo"></a>
+    </div>
+
+    <div class="nav-container col-span-2 m-col-span-9 l-col-span-9">
+      <input type="checkbox" id="menu-toggle">
+      
+      <label for="menu-toggle" class="menu-icon">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </label>
+
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#" id="cart-counter" class="cart-link">Cart (0)</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-title grid-con">
+      <div class="col-span-4 m-col-span-12 l-col-span-12 hero-content">
+        <h1>Our Soda Collection</h1>
+        <p>Browse our complete line of nut-infused carbonated beverages.</p>
+      </div>
+    </section>
+
+    <section class="video-showcase grid-con">
+      <h2 class="visually-hidden">Product Showcase Video</h2>
+      <div class="col-span-4 m-col-span-12 l-col-span-12">
+        <video class="promo-video" autoplay loop muted playsinline>
+          <source src="videos/product-video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </section>
+
+    <section class="products-list grid-con">
+      <h2 class="visually-hidden">Available Flavors</h2>
+
+      <div class="product-card col-span-4 m-col-span-4 l-col-span-4">
+        <div class="glow-circle"></div>
+        <img src="images/can-almond.png" alt="Almond Soda Can" loading="lazy">
+        <h3>Almond Soda</h3>
+        <p>Classic nut flavor with smooth carbonation. Perfect for pairing with desserts.</p>
+        
+        <details class="product-specs">
+          <summary>View Full Specifications</summary>
+          <ul>
+            <li><strong>Product Name:</strong> Almond Fizz Soda</li>
+            <li><strong>Ingredients:</strong> Carbonated Water, Cane Sugar, Roasted Almond Extract, Citric Acid.</li>
+            <li><strong>Nutritional Info:</strong> 60 Calories, 12g Sugar, 0g Fat, 0mg Sodium (Per Serving).</li>
+            <li><strong>Serving Size:</strong> 355ml (12 fl oz) / 1 Can</li>
+            <li><strong>Mfg & Expiry:</strong> Printed on base (Shelf life: 12 months from MFD)</li>
+            <li><strong>Place of Origin:</strong> Crafted in London, Ontario, Canada</li>
+            <li><strong>Distributor:</strong> Dr Nut Soda Co. HQ</li>
+            <li><strong>Warnings:</strong> ⚠️ Allergen Warning: Contains Tree Nuts (Almonds).</li>
+            <li><strong>Recycling:</strong> 100% Recyclable Aluminum (♻ Please Recycle)</li>
+            <li><strong>Alcohol Content:</strong> 0% ABV (Non-Alcoholic Beverage)</li>
+          </ul>
+        </details>
+
+        <p class="price">$24.99</p>
+        <button class="btn add-to-cart-btn">Add to Cart</button>
+      </div>
+
+      <div class="product-card col-span-4 m-col-span-4 l-col-span-4">
+        <div class="glow-circle"></div>
+        <img src="images/can-hazelnut.png" alt="Hazelnut Soda Can" loading="lazy">
+        <h3>Hazelnut Soda</h3>
+        <p>Deep roasted taste with bold sweetness. A coffee-lover's dream soda.</p>
+        
+        <details class="product-specs">
+          <summary>View Full Specifications</summary>
+          <ul>
+            <li><strong>Product Name:</strong> Hazelnut Dark Soda</li>
+            <li><strong>Ingredients:</strong> Carbonated Water, Cane Sugar, Dark Roasted Hazelnut Extract, Citric Acid.</li>
+            <li><strong>Nutritional Info:</strong> 65 Calories, 14g Sugar, 0g Fat, 5mg Sodium (Per Serving).</li>
+            <li><strong>Serving Size:</strong> 355ml (12 fl oz) / 1 Can</li>
+            <li><strong>Mfg & Expiry:</strong> Printed on base (Shelf life: 12 months from MFD)</li>
+            <li><strong>Place of Origin:</strong> Crafted in London, Ontario, Canada</li>
+            <li><strong>Distributor:</strong> Dr Nut Soda Co. HQ</li>
+            <li><strong>Warnings:</strong> ⚠️ Allergen Warning: Contains Tree Nuts (Hazelnuts).</li>
+            <li><strong>Recycling:</strong> 100% Recyclable Aluminum (♻ Please Recycle)</li>
+            <li><strong>Alcohol Content:</strong> 0% ABV (Non-Alcoholic Beverage)</li>
+          </ul>
+        </details>
+
+        <p class="price">$24.99</p>
+        <button class="btn add-to-cart-btn">Add to Cart</button>
+      </div>
+
+      <div class="product-card col-span-4 m-col-span-4 l-col-span-4">
+        <div class="glow-circle"></div>
+        <img src="images/can-pistachio.png" alt="Pistachio Soda Can" loading="lazy">
+        <h3>Pistachio Soda</h3>
+        <p>Fresh, light and perfectly balanced. A slightly savory, refreshing kick.</p>
+        
+        <details class="product-specs">
+          <summary>View Full Specifications</summary>
+          <ul>
+            <li><strong>Product Name:</strong> Pistachio Light Soda</li>
+            <li><strong>Ingredients:</strong> Carbonated Water, Cane Sugar, Pistachio Extract, Natural Green Color, Citric Acid.</li>
+            <li><strong>Nutritional Info:</strong> 55 Calories, 10g Sugar, 0g Fat, 10mg Sodium (Per Serving).</li>
+            <li><strong>Serving Size:</strong> 355ml (12 fl oz) / 1 Can</li>
+            <li><strong>Mfg & Expiry:</strong> Printed on base (Shelf life: 12 months from MFD)</li>
+            <li><strong>Place of Origin:</strong> Crafted in London, Ontario, Canada</li>
+            <li><strong>Distributor:</strong> Dr Nut Soda Co. HQ</li>
+            <li><strong>Warnings:</strong> ⚠️ Allergen Warning: Contains Tree Nuts (Pistachios).</li>
+            <li><strong>Recycling:</strong> 100% Recyclable Aluminum (♻ Please Recycle)</li>
+            <li><strong>Alcohol Content:</strong> 0% ABV (Non-Alcoholic Beverage)</li>
+          </ul>
+        </details>
+
+        <p class="price">$26.99</p>
+        <button class="btn add-to-cart-btn">Add to Cart</button>
+      </div>
+    </section>
+
+    <section class="promo-banner grid-con">
+      <div class="col-span-4 m-col-span-12 l-col-span-12 promo-box">
+        <h2>Can't Decide? Try the Variety Pack.</h2>
+        <p>Get 4 cans of each flavor. Perfect for parties, taste-testing, or stocking the office fridge.</p>
+        <button class="btn add-to-cart-btn" style="background: #ffffff; color: #8c1d18;">Add 12-Pack to Cart - $24.99</button>
+      </div>
+    </section>
+
+    <section class="comparison grid-con">
+      <div class="col-span-4 m-col-span-12 l-col-span-12 text-box">
+        <h2 style="text-align: center;">How We Stack Up</h2>
+        <p style="text-align: center; margin-bottom: 20px;">See why Dr Nut is the smarter choice compared to big brands.</p>
+        
+        <div class="table-container">
+          <table class="compare-table">
+            <tr>
+              <th>Feature</th>
+              <th>Dr Nut Soda</th>
+              <th>Leading Cola Brand</th>
+            </tr>
+            <tr>
+              <td><strong>Sugar Content</strong></td>
+              <td class="good-stat">12g (Cane Sugar)</td>
+              <td class="bad-stat">39g (High Fructose Corn Syrup)</td>
+            </tr>
+            <tr>
+              <td><strong>Artificial Flavors</strong></td>
+              <td class="good-stat">None (Real Extracts)</td>
+              <td class="bad-stat">Yes</td>
+            </tr>
+            <tr>
+              <td><strong>Energy Source</strong></td>
+              <td class="good-stat">Natural Nuts</td>
+              <td class="bad-stat">Synthetic Caffeine</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="grid-con">
+      <div class="col-span-4 m-col-span-4 l-col-span-4 footer-col">
+        <img src="images/logo.svg" alt="Dr Nut Logo" class="footer-logo" loading="lazy">
+        <p>The future of nut-infused carbonated energy. Bold, refreshing, and crafted with real plant-based ingredients.</p>
+      </div>
+      
+      <div class="col-span-4 m-col-span-4 l-col-span-4 footer-col">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Shop Products</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      
+      <div class="col-span-4 m-col-span-4 l-col-span-4 footer-col">
+        <h3>Get In Touch</h3>
+        <p>123 Fake Street, London, ON</p>
+        <p>hello@drnutsoda.com</p>
+        <br>
+        <div class="social-links">
+          <a href="#">Instagram</a> | <a href="#">TikTok</a> | <a href="#">Twitter</a>
+        </div>
+      </div>
+    </div>
+    <div class="grid-con">
+      <div class="col-span-4 m-col-span-12 l-col-span-12 footer-bottom">
+        <p>© 2026 Dr Nut Soda Co. - All Rights Reserved</p>
+      </div>
+    </div>
+  </footer>
+  
+  <div id="toast-notification" class="toast">Item added to cart!</div>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  
+  <script src="js/main.js"></script>
+</div>
+</body>
+</html>

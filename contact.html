@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr Nut - Contact</title>
+
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800;900&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="wrapper">
+
+  <header class="site-header grid-con">
+    <div class="logo col-span-2 m-col-span-3 l-col-span-3">
+      <a href="index.html"><img src="images/logo.svg" alt="Dr Nut Logo"></a>
+    </div>
+
+    <div class="nav-container col-span-2 m-col-span-9 l-col-span-9">
+      <input type="checkbox" id="menu-toggle">
+      
+      <label for="menu-toggle" class="menu-icon">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </label>
+
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#" id="cart-counter" class="cart-link">Cart (0)</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-title grid-con">
+      <div class="col-span-4 m-col-span-12 l-col-span-12 hero-content">
+        <h1>Contact Us</h1>
+        <p>Have a question or want to stock Dr Nut? Send us a message below.</p>
+      </div>
+    </section>
+
+    <section class="info-section grid-con">
+      <div class="col-span-4 m-col-span-12 l-col-span-6 text-box">
+        <h2>Send a Message</h2>
+        <form action="#" method="POST" class="contact-form">
+          <fieldset>
+            <legend>Your Details</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </fieldset>
+
+          <fieldset>
+            <legend>How can we help?</legend>
+            <label for="inquiry">Inquiry Type:</label>
+            <select id="inquiry" name="inquiry">
+              <option value="general">General Question</option>
+              <option value="wholesale">Wholesale / Restaurant Stocking</option>
+              <option value="press">Press / Media Inquiry</option>
+            </select>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </fieldset>
+
+          <button type="submit" class="btn" style="width: 100%;">Submit</button>
+        </form>
+      </div>
+
+      <div class="col-span-4 m-col-span-12 l-col-span-6 text-box">
+        <h2>Get In Touch</h2>
+        <p>We are always looking to partner with local retailers and hear from our thirsty customers.</p>
+        <br><br>
+        <p><strong>Headquarters:</strong></p>
+        <p>123 Fake Street, London, ON</p>
+        <br>
+        <p><strong>Email:</strong></p>
+        <p>hello@drnutsoda.com</p>
+        <br>
+        <p><strong>Phone:</strong></p>
+        <p>(555) 123-4567</p>
+        <br>
+        <h2>Business Hours</h2>
+        <p>Monday - Friday: 9am - 5pm</p>
+        <p>Saturday - Sunday: Closed</p>
+      </div>
+    </section>
+
+    <section class="faq-section grid-con">
+      <div class="col-span-4 m-col-span-12 l-col-span-12 intro-text">
+        <h2>Frequently Asked Questions</h2>
+      </div>
+
+      <div class="col-span-4 m-col-span-12 l-col-span-12">
+        <div class="faq-item">
+          <h3>Do you ship internationally?</h3>
+          <p>Currently, we only ship 12-packs across Canada and the United States.</p>
+        </div>
+        <div class="faq-item">
+          <h3>I have a severe nut allergy, is this safe?</h3>
+          <p><strong>No.</strong> Dr Nut is made using real, highly-concentrated nut extracts.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Do you sell wholesale to restaurants?</h3>
+          <p>Absolutely! Please fill out the contact form above and select "Wholesale" in the dropdown menu.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="grid-con">
+      <div class="col-span-4 m-col-span-4 l-col-span-4 footer-col">
+        <img src="images/logo.svg" alt="Dr Nut Logo" class="footer-logo" loading="lazy">
+        <p>The future of nut-infused carbonated energy. Bold, refreshing, and crafted with real plant-based ingredients.</p>
+      </div>
+      
+      <div class="col-span-4 m-col-span-4 l-col-span-4 footer-col">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Shop Products</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      
+      <div class="col-span-4 m-col-span-4 l-col-span-4 footer-col">
+        <h3>Get In Touch</h3>
+        <p>123 Fake Street, London, ON</p>
+        <p>hello@drnutsoda.com</p>
+        <br>
+        <div class="social-links">
+          <a href="#">Instagram</a> | <a href="#">TikTok</a> | <a href="#">Twitter</a>
+        </div>
+      </div>
+    </div>
+    <div class="grid-con">
+      <div class="col-span-4 m-col-span-12 l-col-span-12 footer-bottom">
+        <p>© 2026 Dr Nut Soda Co. - All Rights Reserved</p>
+      </div>
+    </div>
+  </footer>
+  
+  <div id="toast-notification" class="toast">Item added to cart!</div>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  
+  <script src="js/main.js"></script>
+</div>
+</body>
+</html>
