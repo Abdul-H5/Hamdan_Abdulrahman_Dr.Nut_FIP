@@ -26,11 +26,17 @@ p {
   font-weight: 300;
 }
 
+
 #wrapper {
-  background-color: #ffffff; 
-  max-width: 1200px;         
-  margin: 0 auto;            
-  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1); 
+  background-color: transparent; 
+  width: 100%;
+  max-width: 100%;         
+  margin: 0;            
+  box-shadow: none; 
+}
+
+.grid-con {
+  margin: 0 auto;
 }
 
 /* HEADER & NAVIGATION */
@@ -38,11 +44,14 @@ p {
 .site-header {
   background: #111111; 
   padding: 15px 0;
-  align-items: center; 
   position: sticky; 
   top: 0;
   z-index: 999;
   border-bottom: 3px solid #8c1d18;
+}
+
+.site-header .grid-con {
+  align-items: center; 
 }
 
 .logo {
@@ -78,7 +87,6 @@ p {
   margin: 0 15px; 
 }
 
-
 .main-nav a {
   color: #ffffff;
   text-decoration: none;
@@ -112,7 +120,6 @@ p {
   width: 100%;
 }
 
-
 .cart-link {
   background: #8c1d18;
   padding: 10px 25px !important;
@@ -123,7 +130,7 @@ p {
 }
 
 .cart-link::after {
-  display: none !important;
+  display: none; 
 }
 
 .cart-link:hover {
@@ -140,11 +147,11 @@ p {
   cursor: pointer;
 }
 
-/* CINEMAGRAPH HERO (FIXED BOX ALIGNMENT) */
+/* CINEMAGRAPH HERO  */
 
 .hero-cinemagraph {
   position: relative;
-  width: 100%; 
+  width: 100%;
   background-color: #111111; 
   color: #ffffff;
   text-align: center;
@@ -882,9 +889,7 @@ p {
   transform: translateY(0);
 }
 
-
-/* EVENT LISTENERS & INITIALIZATION */
-
+/* MOBILE RESPONSIVE STYLES */
 
 @media (max-width: 768px) {
   .logo img {
